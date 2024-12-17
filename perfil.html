@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link href="css/perfil.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Icono de la Página -->
+    <link rel="icon" href="assets/img/manzana.png">
+</head>
+
+<body style="background-image: url(assets/img/fondo.jpg); background-size: cover; background-repeat: no-repeat;">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" alt="MathFun Logo" style="height: 40px; width: auto;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="progreso.html">Progreso</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ayuda.html">Ayuda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="perfil.html">Perfil</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container my-5">
+            <h1 class="text-center mb-4">Perfil del Usuario</h1>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="profile-card">
+                        <!-- Avatar -->
+                        <div class="profile-avatar mb-4">
+                            <img src="assets/perfiles/mapache.jpg" alt="Avatar del usuario">
+                        </div>
+
+                        <!-- Nombre del usuario -->
+                        <h2 class="mb-3">Nombre del Usuario</h2>
+
+                        <!-- Progreso general -->
+                        <h4 class="mb-3">Progreso General</h4>
+                        <div class="progress mb-4">
+                            <div class="progress-bar bg-success" role="progressbar"
+                                style="width: 65%; padding-bottom: 5px;" aria-valuenow="65" aria-valuemin="0"
+                                aria-valuemax="100">
+                                65%
+                            </div>
+                        </div>
+
+                        <!-- Botón para editar perfil -->
+                        <button class="btn btn-primary edit-btn" onclick="location.href='editarPerfil.html';">Editar
+                            Perfil</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 MathFun | Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

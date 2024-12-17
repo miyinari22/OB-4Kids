@@ -1,0 +1,19 @@
+.medal {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.medal.locked {
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+.progress-container {
+    margin-top: 2rem;
+}
+
+.progress-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}

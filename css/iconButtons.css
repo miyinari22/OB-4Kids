@@ -1,0 +1,24 @@
+.btn {
+    position: relative; /* Permite posicionar el texto libremente */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el texto dentro del botón */
+}
+
+.btn-icon {
+    position: absolute;
+    left: 10px; /* Fija la imagen al principio del botón */
+    width: 24px;
+    height: 24px;
+}
+
+.btn-text {
+    margin: 0 auto; /* Mantiene el texto centrado */
+}
+
+.btn-icon2 {
+    position: absolute;
+    right: 10px; /* Fija la imagen al principio del botón */
+    width: 24px;
+    height: 24px;
+}

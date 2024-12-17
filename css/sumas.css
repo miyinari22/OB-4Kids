@@ -1,0 +1,28 @@
+.quiz-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.correct-answer {
+    background-color: #5cb85c !important;
+    /* Verde oscuro */
+    border: 1px solid #4cae4c;
+    color: white;
+}
+
+.wrong-answer {
+    background-color: #d9534f !important;
+    /* Rojo oscuro */
+    border: 1px solid #d43f3a;
+    color: white;
+}
+
+.result-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
